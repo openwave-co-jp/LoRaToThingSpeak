@@ -45,7 +45,8 @@ void setup()
     rf95.setFrequency(frequency);
     // Setup Power,dBm
     rf95.setTxPower(13);
-    
+    // キャリアセンス
+    rf95.setCADTimeout((unsigned long)5);
 //    Console.println("Start Listening ");
 }
 
