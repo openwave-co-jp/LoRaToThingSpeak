@@ -42,7 +42,7 @@ void setup()
     rf95.setFrequency(frequency);
     // Setup Power,dBm
     rf95.setTxPower(13);
-    // キャリアセンス
+    // 繧ｭ繝｣繝ｪ繧｢繧ｻ繝ｳ繧ｹ
     rf95.setCADTimeout((unsigned long)5);
 
     dht.begin();
